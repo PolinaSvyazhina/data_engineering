@@ -1,0 +1,244 @@
+{
+"items": [
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090100",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090200",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090300",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090400",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090500",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090600",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090700",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090800",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021090900",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091000",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091100",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091200",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091300",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091400",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091500",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091600",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091700",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091800",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021091900",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092000",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092100",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092200",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092300",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092400",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092500",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092600",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092700",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092800",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021092900",
+"access": "all-access",
+"agent": "all-agents"
+},
+{
+"project": "en.wikipedia",
+"article": "Tiger_King",
+"granularity": "daily",
+"timestamp": "2021093000",
+"access": "all-access",
+"agent": "all-agents"
+}
+]
+}

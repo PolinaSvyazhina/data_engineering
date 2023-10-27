@@ -25,4 +25,4 @@ with open('r_text_5_var_5.csv', 'w', newline='', encoding='utf-8') as result:
     writer = csv.writer(result, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
     for i in items:
-        writer.writerow(i.values())
+        writer.writerow(i)

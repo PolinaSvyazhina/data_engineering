@@ -3,7 +3,6 @@ with open(file_name) as file:
     lines = file.readlines()
 
 average = list()
-print(lines)
 for line in lines:
     element_list = line.split("/")
     count_element = 0
