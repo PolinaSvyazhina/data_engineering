@@ -5,7 +5,7 @@ from statistics import mean
 
 dataset = list()
 
-with open('../products_5.json', 'r', encoding='utf-8') as inp:
+with open('../data/products_5.json', 'r', encoding='utf-8') as inp:
     dataset = json.load(inp)
 
 name_dictionary = dict()
@@ -36,13 +36,13 @@ for product_name, values in name_dictionary.items():
         'max': max_v
     })
 
-with open('../result/products_5_3_res.json', 'w', encoding='utf-8') as out:
+with open('../result/task3/products_5_3_res.json', 'w', encoding='utf-8') as out:
     out.write(json.dumps(result_list))
 
-with open('../result/products_5_3_res.msgpack', 'wb') as out:
+with open('../result/task3/products_5_3_res.msgpack', 'wb') as out:
     out.write(msgpack.packb(result_list))
 
-print(f"json = {os.path.getsize('../result/products_5_3_res.json')}")
-print(f"msgpack = {os.path.getsize('../result/products_5_3_res.msgpack')}")
+print(f"json = {os.path.getsize('../result/task3/products_5_3_res.json')}")
+print(f"msgpack = {os.path.getsize('../result/task3/products_5_3_res.msgpack')}")
 
-print(f"Размер JSON больше, чем MSGPACK, на {int(((os.path.getsize('../result/products_5_3_res.json')/os.path.getsize('../result/products_5_3_res.msgpack')) - 1)*100)}%")
+print(f"Размер JSON больше, чем MSGPACK, на {int(((os.path.getsize('../result/task3/products_5_3_res.json') / os.path.getsize('../result/task3/products_5_3_res.msgpack')) - 1) * 100)}%")

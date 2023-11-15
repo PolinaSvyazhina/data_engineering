@@ -1,7 +1,7 @@
 import numpy as np
 import json
 
-matrix = np.load("../matrix_5.npy")
+matrix = np.load("../data/matrix_5.npy")
 matrix = matrix.astype('float')
 
 size = len(matrix)
@@ -23,7 +23,7 @@ for i in range(0, size):
 
 matrix_stat['avrSD'] = matrix_stat['sumSD'] / size
 
-with open('../result/matrix_stat.json', 'w') as result:
+with open('../result/task1/matrix_stat.json', 'w') as result:
     result.write(json.dumps(matrix_stat))
 
 norm_matrix = np.ndarray((size, size), dtype=float)
@@ -32,4 +32,4 @@ for i in range(0, size):
     for j in range(0, size):
         norm_matrix[i][j] = matrix[i][j] / matrix_stat['sum']
 
-np.save("../result/norm_matrix.npy", norm_matrix)
+np.save("../result/task1/norm_matrix.npy", norm_matrix)
