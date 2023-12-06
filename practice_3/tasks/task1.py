@@ -45,12 +45,12 @@ for i in range(1, 1000):
 items = sorted(items, key=lambda x: x['rating'], reverse=True)
 
 with open('../results/task1/r_task1.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(items))
+    file.write(json.dumps(items, ensure_ascii=False))
 
 filter_items = list(filter(lambda x: x['rating'] > 3.9, items))
 
 with open('../results/task1/r_task1_filter_items.json', 'w', encoding="utf-8") as file:
-    file.write(json.dumps(filter_items))
+    file.write(json.dumps(filter_items, ensure_ascii=False))
 
 
 def statistical_characteristics():

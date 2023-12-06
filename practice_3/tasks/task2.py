@@ -52,12 +52,12 @@ for i in range(1, 67):
 items_list = sorted(items_list, key=lambda x: x['price'], reverse=True)
 
 with open('../results/task2/r_task2.json', 'w', encoding='utf-8') as file:
-    file.write(json.dumps(items_list))
+    file.write(json.dumps(items_list, ensure_ascii=False))
 
 filter_items = list(filter(lambda x: x['bonus'] > 2436, items_list))
 
 with open('../results/task2/r_task2_filter.json', 'w', encoding="utf-8") as file:
-    file.write(json.dumps(filter_items))
+    file.write(json.dumps(filter_items, ensure_ascii=False))
 
 
 def statistical_characteristics():
