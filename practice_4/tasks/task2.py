@@ -49,12 +49,13 @@ def first_query(db, name):
         WHERE id_building = (SELECT id FROM building WHERE name = ?) 
      """, [name])
 
+    first_items = []
     for row in res.fetchall():
         item = dict(row)
-        print(item)
+        first_items.append(item)
 
     cursor.close()
-    return []
+    return first_items
 
 
 def second_query(db, name):
@@ -67,10 +68,11 @@ def second_query(db, name):
            WHERE id_building = (SELECT id FROM building WHERE name = ?) 
         """, [name])
 
-    print(dict(res.fetchone()))
+    items_second = []
+    items_second.append(dict(res.fetchone()))
 
     cursor.close()
-    return []
+    return items_second
 
 
 def third_query(db, name):
@@ -82,17 +84,27 @@ def third_query(db, name):
            ORDER BY prise DESC 
         """, [name])
 
+    items_third = []
     for row in res.fetchall():
-        print(dict(row))
+        items_third.append(dict(row))
 
     cursor.close()
-    return []
+    return items_third
 
 
 items = load_file('../data/task_2_var_05_subitem.json')
 database = connect_to_db("../results/first.db")
 create_table(database)
+
 # insert_subitem_data(database, items)
-first_query(database, 'Дортмунд 1969')
-second_query(database, 'Гран-при ФИДЕ 1977')
-third_query(database, 'Ставангер 1961')
+
+first = first_query(database, 'Дортмунд 1969')
+second = second_query(database, 'Гран-при ФИДЕ 1977')
+third = third_query(database, 'Ставангер 1961')
+
+with open('../results/task2/r_1.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(first, ensure_ascii=False))
+with open('../results/task2/r_2.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(second, ensure_ascii=False))
+with open('../results/task2/r_3.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(third, ensure_ascii=False))

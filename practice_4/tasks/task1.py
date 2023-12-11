@@ -93,10 +93,12 @@ def statistical_characteristics(db):
         FROM building
     """)
 
+    items_st = []
     res = res.fetchone()
-    print(dict(res))
+    items_st.append(dict(res))
     cursor.close()
 
+    return items_st
 
 items = parse_data('../data/task_1_var_05_item.pkl')
 
@@ -112,19 +114,19 @@ def tag_frequency(db):
                     GROUP BY city
                 
     """)
-
+    items_tag = []
     for row in result_tag.fetchall():
-        print(dict(row))
+        items_tag.append(dict(row))
     cursor.close()
-    return []
+    return items_tag
 
 
 db = connect_to_database("../results/first.db")
 create_table(db)
 # insert_data(db, items)
 
-statistical_characteristics(db)
-tag_frequency(db)
+st = statistical_characteristics(db)
+tag = tag_frequency(db)
 
 res_1 = get_top_by_tours_count(db)
 res_2 = get_top_by_min_rating(db)
@@ -134,3 +136,9 @@ with open('../results/task1/r_task1.json', 'w', encoding='utf-8') as file:
 
 with open('../results/task1/r_task1_filter.json', 'w', encoding='utf-8') as file:
     file.write(json.dumps(res_2, ensure_ascii=False))
+
+with open('../results/task1/r_statistical.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(st, ensure_ascii=False))
+
+with open('../results/task1/r_tag.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(tag, ensure_ascii=False))

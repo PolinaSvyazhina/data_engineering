@@ -1,7 +1,7 @@
 import csv
 import msgpack
 import sqlite3
-
+import json
 
 def read_msgpack(file_name):
     with open(file_name, 'rb') as file:
@@ -217,6 +217,15 @@ create_table(database)
 # handle_update(database, data_update)
 
 top_update = top_update_product(database)
-print(statistical_characteristics_by_price(database))
-print(statistical_characteristics_by_quantity(database))
-print(get_top_by_views(database))
+st_by_price = statistical_characteristics_by_price(database)
+st_quantity = statistical_characteristics_by_quantity(database)
+top = get_top_by_views(database)
+
+with open('../results/task4/st_by_price.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(st_by_price, ensure_ascii=False))
+
+with open('../results/task4/st_quantity.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(st_quantity, ensure_ascii=False))
+
+with open('../results/task4/top.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(top, ensure_ascii=False))

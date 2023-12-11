@@ -105,12 +105,12 @@ def statistical_characteristics(db):
         FROM music
     """)
 
+    statistical_items = []
     res = res.fetchone()
+    statistical_items.append(dict(res))
     cursor.close()
 
-    print(dict(res))
-
-    return []
+    return statistical_items
 
 
 def tag_frequency(db):
@@ -125,11 +125,12 @@ def tag_frequency(db):
 
     """)
 
+    tag_frequency_items = []
     for row in result_tag.fetchall():
-        print(dict(row))
+        tag_frequency_items.append(dict(row))
     cursor.close()
 
-    return []
+    return tag_frequency_items
 
 
 def get_top_by_duration_ms(db):
@@ -167,5 +168,11 @@ with open('../results/task3/r_task3.json', 'w', encoding='utf-8') as file:
 with open('../results/task3/r_task3_filter.json', 'w', encoding='utf-8') as file:
     file.write(json.dumps(res_2, ensure_ascii=False))
 
-statistical_characteristics(database)
-tag_frequency(database)
+st = statistical_characteristics(database)
+tag = tag_frequency(database)
+
+with open('../results/task3/r_statistical.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(st, ensure_ascii=False))
+
+with open('../results/task3/r_tag.json', 'w', encoding='utf-8') as file:
+    file.write(json.dumps(tag, ensure_ascii=False))
