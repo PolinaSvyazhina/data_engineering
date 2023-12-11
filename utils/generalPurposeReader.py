@@ -47,16 +47,18 @@ def text_strategy(w):
     with open(w, 'r', encoding='utf-8') as file:
         text = file.read()
 
-    regex = r'\w+::(\d+)'
+    objects = text.split('=====')
+    regex = r'(\w+)::((?:\d+|\w+))'
     pattern = re.compile(regex)
-    matches = re.findall(pattern, text)
+
 
     result = []
-    for match in matches:
-        data = {}
-        for piece in match:
-            key, value = piece.split('::')
-            data[key] = int(value)
-        result.append(data)
+    for o in objects:
+        matches = re.findall(pattern, o)
+        for match in matches:
+            data = {}
+            (key, value) = match
+            data[key] = int(value) if value.isdigit() else value
+            result.append(data)
 
     return result
