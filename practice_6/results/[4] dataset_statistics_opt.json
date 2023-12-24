@@ -1,0 +1,272 @@
+[
+  {
+    "column": "full_name",
+    "memory_usage": 72322265,
+    "memory_share": 0.2095879769681155,
+    "data_type": "object"
+  },
+  {
+    "column": "id",
+    "memory_usage": 62304188,
+    "memory_share": 0.18055585952073183,
+    "data_type": "object"
+  },
+  {
+    "column": "orbit_id",
+    "memory_usage": 58364870,
+    "memory_share": 0.16913982200788452,
+    "data_type": "object"
+  },
+  {
+    "column": "pdes",
+    "memory_usage": 47161549,
+    "memory_share": 0.13667289935668708,
+    "data_type": "object"
+  },
+  {
+    "column": "name",
+    "memory_usage": 31412233,
+    "memory_share": 0.09103180557911286,
+    "data_type": "object"
+  },
+  {
+    "column": "spkid",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "int32"
+  },
+  {
+    "column": "H",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "diameter",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "albedo",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "diameter_sigma",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "epoch",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "epoch_mjd",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "int32"
+  },
+  {
+    "column": "epoch_cal",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "e",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "a",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "q",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "i",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "om",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "w",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "ma",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "ad",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "n",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "tp",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "tp_cal",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "per",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "per_y",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "moid",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "moid_ld",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_e",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_a",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_q",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_i",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_om",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_w",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_ma",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_ad",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_n",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_tp",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "sigma_per",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "rms",
+    "memory_usage": 3834224,
+    "memory_share": 0.011111477930103485,
+    "data_type": "float32"
+  },
+  {
+    "column": "class",
+    "memory_usage": 959988,
+    "memory_share": 0.0027820193799747185,
+    "data_type": "category"
+  },
+  {
+    "column": "neo",
+    "memory_usage": 958876,
+    "memory_share": 0.0027787968339110887,
+    "data_type": "category"
+  },
+  {
+    "column": "pha",
+    "memory_usage": 958876,
+    "memory_share": 0.0027787968339110887,
+    "data_type": "category"
+  },
+  {
+    "column": "equinox",
+    "memory_usage": 958822,
+    "memory_share": 0.0027786403433648333,
+    "data_type": "category"
+  },
+  {
+    "column": "prefix",
+    "memory_usage": 958818,
+    "memory_share": 0.002778628751472518,
+    "data_type": "category"
+  }
+]

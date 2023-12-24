@@ -1,7 +1,5 @@
 import os
 import pandas as pd
-import numpy as np
-import matplotlib
 import json
 
 pd.set_option("display.max_row", 20, "display.max_columns", 60)
@@ -9,7 +7,6 @@ pd.set_option("display.max_row", 20, "display.max_columns", 60)
 
 def read_file(file_name):
     return pd.read_csv(file_name)
-    # return next(pd.read_csv(file_name, chunksize=100_000, compression='zip'))
 
 
 def get_memory_stat_by_column(df):
@@ -95,7 +92,7 @@ file_size = os.path.getsize(file_name)
 
 preliminary_size = get_memory_stat_by_column(dataset)
 
-with open('../results/preliminary_results.json', mode='w') as file:
+with open('../../results/preliminary_results.json', mode='w') as file:
     file.write(json.dumps(preliminary_size))
 
 converted_obj = opt_obj(dataset)
@@ -127,11 +124,11 @@ for key in column_names:
     print(f'{key}: {opt_dtypes[key]}')
 
 
-with open('../results/dtypes.json', mode='w') as file:
-    dtypes_json = need_column.copy()
-    for key in dtypes_json.keys():
-        dtypes_json[key] = str(dtypes_json[key])
-    file.write(json.dumps(dtypes_json))
+# with open('../results/dtypes.json', mode='w') as file:
+#     dtypes_json = need_column.copy()
+#     for key in dtypes_json.keys():
+#         dtypes_json[key] = str(dtypes_json[key])
+#     file.write(json.dumps(dtypes_json))
 
 
 # read_and_optimized = pd.read_csv(file_name,
@@ -141,13 +138,13 @@ with open('../results/dtypes.json', mode='w') as file:
 # print(read_and_optimized.shape)
 # print(mem_usage(read_and_optimized))
 
-has_header = True
-for chunk in pd.read_csv(file_name,
-                         dtype=need_column,
-                         parse_dates=['date'],
-                         infer_datetime_format=True,
-                         chunksize=100_000):
-    print(mem_usage(chunk))
-    chunk.to_csv("../result/df.cvs", mode='a', header=has_header)
-    has_header = False
+# has_header = True
+# for chunk in pd.read_csv(file_name,
+#                          dtype=need_column,
+#                          parse_dates=['date'],
+#                          infer_datetime_format=True,
+#                          chunksize=100_000):
+#     print(mem_usage(chunk))
+#     chunk.to_csv("../result/[1]selected_dataset.cvs", mode='a', header=has_header)
+#     has_header = False
 

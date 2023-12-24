@@ -1,0 +1,50 @@
+[
+  {
+    "column": "review_text",
+    "memory_usage": 478842392,
+    "memory_share": 2.2152712125361775,
+    "data_type": "object"
+  },
+  {
+    "column": "review_id",
+    "memory_usage": 314100467,
+    "memory_share": 1.4531247316742786,
+    "data_type": "object"
+  },
+  {
+    "column": "pseudo_author_id",
+    "memory_usage": 263439122,
+    "memory_share": 1.2187498704634447,
+    "data_type": "object"
+  },
+  {
+    "column": "review_timestamp",
+    "memory_usage": 256684276,
+    "memory_share": 1.187499888968667,
+    "data_type": "object"
+  },
+  {
+    "column": "author_name",
+    "memory_usage": 236861266,
+    "memory_share": 1.0957925879183106,
+    "data_type": "object"
+  },
+  {
+    "column": "author_app_version",
+    "memory_usage": 202693071,
+    "memory_share": 0.9377200779810062,
+    "data_type": "object"
+  },
+  {
+    "column": "review_rating",
+    "memory_usage": 27019512,
+    "memory_share": 0.12500051814622087,
+    "data_type": "int64"
+  },
+  {
+    "column": "review_likes",
+    "memory_usage": 27019512,
+    "memory_share": 0.12500051814622087,
+    "data_type": "int64"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "column": "description",
+    "memory_usage": 4090655965,
+    "memory_share": 17.758141592365607,
+    "data_type": "object"
+  },
+  {
+    "column": "specializations",
+    "memory_usage": 538109115,
+    "memory_share": 2.3360111283063008,
+    "data_type": "object"
+  },
+  {
+    "column": "terms_found",
+    "memory_usage": 201110191,
+    "memory_share": 0.8730490361454026,
+    "data_type": "object"
+  },
+  {
+    "column": "employer_industries",
+    "memory_usage": 158339181,
+    "memory_share": 0.687373765937612,
+    "data_type": "object"
+  },
+  {
+    "column": "key_skills",
+    "memory_usage": 112306161,
+    "memory_share": 0.4875376286338488,
+    "data_type": "object"
+  },
+  {
+    "column": "name",
+    "memory_usage": 109236331,
+    "memory_share": 0.4742110432962105,
+    "data_type": "object"
+  },
+  {
+    "column": "employer_name",
+    "memory_usage": 72563507,
+    "memory_share": 0.3150088990054222,
+    "data_type": "object"
+  },
+  {
+    "column": "area_name",
+    "memory_usage": 68636897,
+    "memory_share": 0.2979629051710327,
+    "data_type": "object"
+  },
+  {
+    "column": "apply_alternate_url",
+    "memory_usage": 68166018,
+    "memory_share": 0.29591874989950245,
+    "data_type": "object"
+  },
+  {
+    "column": "employer_vacancies_url",
+    "memory_usage": 60405229,
+    "memory_share": 0.2622280188505829,
+    "data_type": "object"
+  },
+  {
+    "column": "alternate_url",
+    "memory_usage": 51124545,
+    "memory_share": 0.22193919917077828,
+    "data_type": "object"
+  },
+  {
+    "column": "employer_alternate_url",
+    "memory_usage": 50435120,
+    "memory_share": 0.2189463034415681,
+    "data_type": "object"
+  },
+  {
+    "column": "area_url",
+    "memory_usage": 48727078,
+    "memory_share": 0.2115314409008833,
+    "data_type": "object"
+  },
+  {
+    "column": "created_at",
+    "memory_usage": 47598725,
+    "memory_share": 0.20663309390919965,
+    "data_type": "object"
+  },
+  {
+    "column": "published_at",
+    "memory_usage": 47598725,
+    "memory_share": 0.20663309390919965,
+    "data_type": "object"
+  },
+  {
+    "column": "address_street",
+    "memory_usage": 42876857,
+    "memory_share": 0.18613476766472892,
+    "data_type": "object"
+  },
+  {
+    "column": "prof_classes_found",
+    "memory_usage": 38711276,
+    "memory_share": 0.16805136543159394,
+    "data_type": "object"
+  },
+  {
+    "column": "address_city",
+    "memory_usage": 37321553,
+    "memory_share": 0.1620183726746078,
+    "data_type": "object"
+  },
+  {
+    "column": "address_building",
+    "memory_usage": 29392656,
+    "memory_share": 0.1275978599739552,
+    "data_type": "object"
+  },
+  {
+    "column": "department_name",
+    "memory_usage": 22173262,
+    "memory_share": 0.09625740456533842,
+    "data_type": "object"
+  },
+  {
+    "column": "contacts",
+    "memory_usage": 21008971,
+    "memory_share": 0.09120304540885606,
+    "data_type": "object"
+  },
+  {
+    "column": "department_id",
+    "memory_usage": 20352416,
+    "memory_share": 0.08835284320340718,
+    "data_type": "object"
+  },
+  {
+    "column": "code",
+    "memory_usage": 19082418,
+    "memory_share": 0.08283959435065964,
+    "data_type": "object"
+  },
+  {
+    "column": "response_url",
+    "memory_usage": 18886781,
+    "memory_share": 0.08199030524484612,
+    "data_type": "object"
+  },
+  {
+    "column": "id",
+    "memory_usage": 2350676,
+    "memory_share": 0.010204631629483811,
+    "data_type": "int32"
+  },
+  {
+    "column": "employer_id",
+    "memory_usage": 2350676,
+    "memory_share": 0.010204631629483811,
+    "data_type": "float32"
+  },
+  {
+    "column": "salary_from",
+    "memory_usage": 2350676,
+    "memory_share": 0.010204631629483811,
+    "data_type": "float32"
+  },
+  {
+    "column": "salary_to",
+    "memory_usage": 2350676,
+    "memory_share": 0.010204631629483811,
+    "data_type": "float32"
+  },
+  {
+    "column": "address_description",
+    "memory_usage": 2350676,
+    "memory_share": 0.010204631629483811,
+    "data_type": "float32"
+  },
+  {
+    "column": "address_lat",
+    "memory_usage": 2350676,
+    "memory_share": 0.010204631629483811,
+    "data_type": "float32"
+  },
+  {
+    "column": "address_lng",
+    "memory_usage": 2350676,
+    "memory_share": 0.010204631629483811,
+    "data_type": "float32"
+  },
+  {
+    "column": "area_id",
+    "memory_usage": 1175402,
+    "memory_share": 0.00510259364819249,
+    "data_type": "int16"
+  },
+  {
+    "column": "insider_interview",
+    "memory_usage": 594253,
+    "memory_share": 0.002579740023599868,
+    "data_type": "category"
+  },
+  {
+    "column": "driver_license_types",
+    "memory_usage": 588750,
+    "memory_share": 0.002555850687997237,
+    "data_type": "category"
+  },
+  {
+    "column": "salary_currency",
+    "memory_usage": 588665,
+    "memory_share": 0.0025554816904456794,
+    "data_type": "category"
+  },
+  {
+    "column": "employment_name",
+    "memory_usage": 588641,
+    "memory_share": 0.00255537750290171,
+    "data_type": "category"
+  },
+  {
+    "column": "schedule_name",
+    "memory_usage": 588619,
+    "memory_share": 0.0025552819976530712,
+    "data_type": "category"
+  },
+  {
+    "column": "experience_name",
+    "memory_usage": 588456,
+    "memory_share": 0.002554574390583613,
+    "data_type": "category"
+  },
+  {
+    "column": "billing_type_name",
+    "memory_usage": 588420,
+    "memory_share": 0.0025544181092676593,
+    "data_type": "category"
+  },
+  {
+    "column": "schedule_id",
+    "memory_usage": 588259,
+    "memory_share": 0.002553719184493532,
+    "data_type": "category"
+  },
+  {
+    "column": "employment_id",
+    "memory_usage": 588255,
+    "memory_share": 0.0025537018199028702,
+    "data_type": "category"
+  },
+  {
+    "column": "type_name",
+    "memory_usage": 588226,
+    "memory_share": 0.002553575926620574,
+    "data_type": "category"
+  },
+  {
+    "column": "experience_id",
+    "memory_usage": 588210,
+    "memory_share": 0.0025535064682579278,
+    "data_type": "category"
+  },
+  {
+    "column": "billing_type_id",
+    "memory_usage": 588197,
+    "memory_share": 0.0025534500333382775,
+    "data_type": "category"
+  },
+  {
+    "column": "type_id",
+    "memory_usage": 588063,
+    "memory_share": 0.0025528683195511154,
+    "data_type": "category"
+  },
+  {
+    "column": "employer_trusted",
+    "memory_usage": 587941,
+    "memory_share": 0.002552338699535938,
+    "data_type": "category"
+  },
+  {
+    "column": "test_required",
+    "memory_usage": 587941,
+    "memory_share": 0.002552338699535938,
+    "data_type": "category"
+  },
+  {
+    "column": "salary_gross",
+    "memory_usage": 587941,
+    "memory_share": 0.002552338699535938,
+    "data_type": "category"
+  },
+  {
+    "column": "accept_handicapped",
+    "memory_usage": 587765,
+    "memory_share": 0.00255157465754683,
+    "data_type": "bool"
+  },
+  {
+    "column": "accept_kids",
+    "memory_usage": 587765,
+    "memory_share": 0.00255157465754683,
+    "data_type": "bool"
+  },
+  {
+    "column": "allow_messages",
+    "memory_usage": 587765,
+    "memory_share": 0.00255157465754683,
+    "data_type": "bool"
+  },
+  {
+    "column": "premium",
+    "memory_usage": 587765,
+    "memory_share": 0.00255157465754683,
+    "data_type": "bool"
+  },
+  {
+    "column": "accept_incomplete_resumes",
+    "memory_usage": 587765,
+    "memory_share": 0.00255157465754683,
+    "data_type": "bool"
+  },
+  {
+    "column": "response_letter_required",
+    "memory_usage": 587765,
+    "memory_share": 0.00255157465754683,
+    "data_type": "bool"
+  },
+  {
+    "column": "has_test",
+    "memory_usage": 587765,
+    "memory_share": 0.00255157465754683,
+    "data_type": "bool"
+  },
+  {
+    "column": "archived",
+    "memory_usage": 587765,
+    "memory_share": 0.00255157465754683,
+    "data_type": "bool"
+  }
+]

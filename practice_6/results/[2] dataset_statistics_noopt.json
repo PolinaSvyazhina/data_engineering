@@ -1,0 +1,188 @@
+[
+  {
+    "column": "TAIL_NUMBER",
+    "memory_usage": 366130651,
+    "memory_share": 0.25370563610090974,
+    "data_type": "object"
+  },
+  {
+    "column": "AIRLINE",
+    "memory_usage": 343325789,
+    "memory_share": 0.23790329340138128,
+    "data_type": "object"
+  },
+  {
+    "column": "ORIGIN_AIRPORT",
+    "memory_usage": 338189646,
+    "memory_share": 0.23434426761820468,
+    "data_type": "object"
+  },
+  {
+    "column": "DESTINATION_AIRPORT",
+    "memory_usage": 338189646,
+    "memory_share": 0.23434426761820468,
+    "data_type": "object"
+  },
+  {
+    "column": "CANCELLATION_REASON",
+    "memory_usage": 188547640,
+    "memory_share": 0.1306517190267289,
+    "data_type": "object"
+  },
+  {
+    "column": "YEAR",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "MONTH",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "DAY",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "DAY_OF_WEEK",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "FLIGHT_NUMBER",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "SCHEDULED_DEPARTURE",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "DEPARTURE_TIME",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "DEPARTURE_DELAY",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "TAXI_OUT",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "WHEELS_OFF",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "SCHEDULED_TIME",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "ELAPSED_TIME",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "AIR_TIME",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "DISTANCE",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "WHEELS_ON",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "TAXI_IN",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "SCHEDULED_ARRIVAL",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "ARRIVAL_TIME",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "ARRIVAL_DELAY",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "DIVERTED",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "CANCELLED",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "int64"
+  },
+  {
+    "column": "AIR_SYSTEM_DELAY",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "SECURITY_DELAY",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "AIRLINE_DELAY",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "LATE_AIRCRAFT_DELAY",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  },
+  {
+    "column": "WEATHER_DELAY",
+    "memory_usage": 46552760,
+    "memory_share": 0.03225815035096034,
+    "data_type": "float64"
+  }
+]

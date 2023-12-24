@@ -1,0 +1,3 @@
+## Ссылка на шестой датасет
+
+https://www.kaggle.com/datasets/bwandowando/3-4-million-spotify-google-store-reviews

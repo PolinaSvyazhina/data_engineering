@@ -1,0 +1,188 @@
+[
+  {
+    "column": "TAIL_NUMBER",
+    "memory_usage": 366130651,
+    "memory_share": 0.25370563610090974,
+    "data_type": "object"
+  },
+  {
+    "column": "ORIGIN_AIRPORT",
+    "memory_usage": 338189646,
+    "memory_share": 0.23434426761820468,
+    "data_type": "object"
+  },
+  {
+    "column": "DESTINATION_AIRPORT",
+    "memory_usage": 338189646,
+    "memory_share": 0.23434426761820468,
+    "data_type": "object"
+  },
+  {
+    "column": "DEPARTURE_TIME",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "DEPARTURE_DELAY",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "TAXI_OUT",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "WHEELS_OFF",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "SCHEDULED_TIME",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "ELAPSED_TIME",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "AIR_TIME",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "WHEELS_ON",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "TAXI_IN",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "ARRIVAL_TIME",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "ARRIVAL_DELAY",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "AIR_SYSTEM_DELAY",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "SECURITY_DELAY",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "AIRLINE_DELAY",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "LATE_AIRCRAFT_DELAY",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "WEATHER_DELAY",
+    "memory_usage": 23276444,
+    "memory_share": 0.016129119523476346,
+    "data_type": "float32"
+  },
+  {
+    "column": "YEAR",
+    "memory_usage": 11638286,
+    "memory_share": 0.00806460410973435,
+    "data_type": "int16"
+  },
+  {
+    "column": "FLIGHT_NUMBER",
+    "memory_usage": 11638286,
+    "memory_share": 0.00806460410973435,
+    "data_type": "int16"
+  },
+  {
+    "column": "SCHEDULED_DEPARTURE",
+    "memory_usage": 11638286,
+    "memory_share": 0.00806460410973435,
+    "data_type": "int16"
+  },
+  {
+    "column": "DISTANCE",
+    "memory_usage": 11638286,
+    "memory_share": 0.00806460410973435,
+    "data_type": "int16"
+  },
+  {
+    "column": "SCHEDULED_ARRIVAL",
+    "memory_usage": 11638286,
+    "memory_share": 0.00806460410973435,
+    "data_type": "int16"
+  },
+  {
+    "column": "AIRLINE",
+    "memory_usage": 5820589,
+    "memory_share": 0.004033304042405776,
+    "data_type": "category"
+  },
+  {
+    "column": "CANCELLATION_REASON",
+    "memory_usage": 5819611,
+    "memory_share": 0.004032626349589212,
+    "data_type": "category"
+  },
+  {
+    "column": "MONTH",
+    "memory_usage": 5819207,
+    "memory_share": 0.00403234640286335,
+    "data_type": "int8"
+  },
+  {
+    "column": "DAY",
+    "memory_usage": 5819207,
+    "memory_share": 0.00403234640286335,
+    "data_type": "int8"
+  },
+  {
+    "column": "DAY_OF_WEEK",
+    "memory_usage": 5819207,
+    "memory_share": 0.00403234640286335,
+    "data_type": "int8"
+  },
+  {
+    "column": "DIVERTED",
+    "memory_usage": 5819207,
+    "memory_share": 0.00403234640286335,
+    "data_type": "int8"
+  },
+  {
+    "column": "CANCELLED",
+    "memory_usage": 5819207,
+    "memory_share": 0.00403234640286335,
+    "data_type": "int8"
+  }
+]

@@ -1,0 +1,938 @@
+[
+  {
+    "column": "vin",
+    "memory_usage": 689096943,
+    "memory_share": 0.09750203084960594,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_VIN",
+    "memory_usage": 689096943,
+    "memory_share": 0.09750203084960594,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AirBagLocFront",
+    "memory_usage": 467992616,
+    "memory_share": 0.06621743275186724,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Manufacturer",
+    "memory_usage": 465456836,
+    "memory_share": 0.06585863896777144,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BodyClass",
+    "memory_usage": 464367295,
+    "memory_share": 0.06570447711685476,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_VehicleType",
+    "memory_usage": 459535882,
+    "memory_share": 0.06502086854166306,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_GVWR",
+    "memory_usage": 440461501,
+    "memory_share": 0.062321987196169784,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AirBagLocSide",
+    "memory_usage": 420427393,
+    "memory_share": 0.05948731170369653,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_TrailerBodyType",
+    "memory_usage": 404295499,
+    "memory_share": 0.057204770121661724,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_TrailerType",
+    "memory_usage": 404294645,
+    "memory_share": 0.057204649287089473,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_CustomMotorcycleType",
+    "memory_usage": 404196367,
+    "memory_share": 0.057190743689792635,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_MotorcycleSuspensionType",
+    "memory_usage": 404193448,
+    "memory_share": 0.0571903306732629,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_MotorcycleChassisType",
+    "memory_usage": 404193352,
+    "memory_share": 0.05719031708998546,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BusFloorConfigType",
+    "memory_usage": 403207315,
+    "memory_share": 0.057050800276031384,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BusType",
+    "memory_usage": 403207315,
+    "memory_share": 0.057050800276031384,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_PlantCountry",
+    "memory_usage": 393589931,
+    "memory_share": 0.055690012826622386,
+    "data_type": "object"
+  },
+  {
+    "column": "firstSeen",
+    "memory_usage": 381566133,
+    "memory_share": 0.05398873590842623,
+    "data_type": "object"
+  },
+  {
+    "column": "lastSeen",
+    "memory_usage": 381566133,
+    "memory_share": 0.05398873590842623,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_FuelTypePrimary",
+    "memory_usage": 366525343,
+    "memory_share": 0.05186057733004397,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_DriveType",
+    "memory_usage": 363306999,
+    "memory_share": 0.051405205877361956,
+    "data_type": "object"
+  },
+  {
+    "column": "modelName",
+    "memory_usage": 361441019,
+    "memory_share": 0.05114118375192242,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Model",
+    "memory_usage": 361441019,
+    "memory_share": 0.05114118375192242,
+    "data_type": "object"
+  },
+  {
+    "column": "brandName",
+    "memory_usage": 359258429,
+    "memory_share": 0.050832363694492504,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Make",
+    "memory_usage": 359258429,
+    "memory_share": 0.050832363694492504,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_PlantCity",
+    "memory_usage": 355543768,
+    "memory_share": 0.050306767121910075,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_PlantCompanyName",
+    "memory_usage": 353674882,
+    "memory_share": 0.050042333819342956,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_SeatBeltsAll",
+    "memory_usage": 347689413,
+    "memory_share": 0.04919543500631577,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_OtherRestraintSystemInfo",
+    "memory_usage": 338117793,
+    "memory_share": 0.0478411228184576,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Series",
+    "memory_usage": 334805792,
+    "memory_share": 0.04737249960519815,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_ActiveSafetySysNote",
+    "memory_usage": 333203280,
+    "memory_share": 0.04714575621872972,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_EngineModel",
+    "memory_usage": 330358982,
+    "memory_share": 0.04674330945973797,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_TPMS",
+    "memory_usage": 328521298,
+    "memory_share": 0.04648329100532461,
+    "data_type": "object"
+  },
+  {
+    "column": "color",
+    "memory_usage": 324540329,
+    "memory_share": 0.04592001385514674,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_PlantState",
+    "memory_usage": 318255614,
+    "memory_share": 0.04503077398543659,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AirBagLocCurtain",
+    "memory_usage": 307518120,
+    "memory_share": 0.04351149940169278,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_SteeringLocation",
+    "memory_usage": 300254434,
+    "memory_share": 0.04248374250384532,
+    "data_type": "object"
+  },
+  {
+    "column": "stockNum",
+    "memory_usage": 299587110,
+    "memory_share": 0.042389321180553094,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BodyCabType",
+    "memory_usage": 296937936,
+    "memory_share": 0.042014482998933164,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_EngineConfiguration",
+    "memory_usage": 296117041,
+    "memory_share": 0.04189833253501464,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_OtherEngineInfo",
+    "memory_usage": 291955376,
+    "memory_share": 0.04130948826087058,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_ValveTrainDesign",
+    "memory_usage": 290115967,
+    "memory_share": 0.04104922573194068,
+    "data_type": "object"
+  },
+  {
+    "column": "interiorColor",
+    "memory_usage": 284161221,
+    "memory_share": 0.04020667399217252,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_EngineManufacturer",
+    "memory_usage": 273656179,
+    "memory_share": 0.0387202896168461,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_FuelInjectionType",
+    "memory_usage": 271736579,
+    "memory_share": 0.03844868066498502,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BedType",
+    "memory_usage": 262089931,
+    "memory_share": 0.03708375257983563,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AirBagLocKnee",
+    "memory_usage": 260669648,
+    "memory_share": 0.036882793225295044,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Trim",
+    "memory_usage": 260060909,
+    "memory_share": 0.036796661238554594,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BrakeSystemType",
+    "memory_usage": 259957012,
+    "memory_share": 0.036781960595049956,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_TransmissionStyle",
+    "memory_usage": 259955693,
+    "memory_share": 0.03678177396647759,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_ABS",
+    "memory_usage": 259152422,
+    "memory_share": 0.03666811716590956,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_ESC",
+    "memory_usage": 254431300,
+    "memory_share": 0.03600011393709716,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_RearVisibilitySystem",
+    "memory_usage": 253545541,
+    "memory_share": 0.03587478570538664,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_TractionControl",
+    "memory_usage": 251369131,
+    "memory_share": 0.03556684007144208,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_DynamicBrakeSupport",
+    "memory_usage": 249509740,
+    "memory_share": 0.03530375023990951,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_SemiautomaticHeadlampBeamSwitching",
+    "memory_usage": 247918942,
+    "memory_share": 0.035078664296274015,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_DaytimeRunningLight",
+    "memory_usage": 247455556,
+    "memory_share": 0.0350130986650138,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AutoReverseSystem",
+    "memory_usage": 247285606,
+    "memory_share": 0.03498905201916634,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Note",
+    "memory_usage": 236157662,
+    "memory_share": 0.03341453169919927,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_KeylessIgnition",
+    "memory_usage": 233316250,
+    "memory_share": 0.033012493287485636,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BlindSpotMon",
+    "memory_usage": 228367307,
+    "memory_share": 0.032312255101899987,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_ForwardCollisionWarning",
+    "memory_usage": 224208541,
+    "memory_share": 0.031723821014436195,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_LaneDepartureWarning",
+    "memory_usage": 221415883,
+    "memory_share": 0.031328680926768736,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_CIB",
+    "memory_usage": 220958602,
+    "memory_share": 0.03126397910705839,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_CAN_AACN",
+    "memory_usage": 220466209,
+    "memory_share": 0.031194309203623434,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_LaneKeepSystem",
+    "memory_usage": 217428088,
+    "memory_share": 0.030764437948967705,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Turbo",
+    "memory_usage": 215460104,
+    "memory_share": 0.0304859830252756,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AdaptiveCruiseControl",
+    "memory_usage": 214021045,
+    "memory_share": 0.03028236700805521,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AdaptiveDrivingBeam",
+    "memory_usage": 209817406,
+    "memory_share": 0.029687583728834357,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_FuelTypeSecondary",
+    "memory_usage": 202702954,
+    "memory_share": 0.028680942318756238,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_PedestrianAutomaticEmergencyBraking",
+    "memory_usage": 200696767,
+    "memory_share": 0.02839708195810437,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_MakeID",
+    "memory_usage": 199974811,
+    "memory_share": 0.02829493061800757,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AirBagLocSeatCushion",
+    "memory_usage": 197625338,
+    "memory_share": 0.027962497872145983,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_CoolingType",
+    "memory_usage": 197270534,
+    "memory_share": 0.027912295776628106,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_ParkAssist",
+    "memory_usage": 195677977,
+    "memory_share": 0.02768696094773197,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Pretensioner",
+    "memory_usage": 193963185,
+    "memory_share": 0.027444330786354724,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Series2",
+    "memory_usage": 191063576,
+    "memory_share": 0.02703405793716898,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_EntertainmentSystem",
+    "memory_usage": 189935312,
+    "memory_share": 0.02687441707320639,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_DestinationMarket",
+    "memory_usage": 189003394,
+    "memory_share": 0.026742557690418063,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BrakeSystemDesc",
+    "memory_usage": 188466227,
+    "memory_share": 0.026666552602980908,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_WheelBaseType",
+    "memory_usage": 187916153,
+    "memory_share": 0.026588721272190103,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_ElectrificationLevel",
+    "memory_usage": 187041786,
+    "memory_share": 0.026465004922736093,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_Trim2",
+    "memory_usage": 186261465,
+    "memory_share": 0.02635459537443166,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AdditionalErrorText",
+    "memory_usage": 185260783,
+    "memory_share": 0.026213006403205237,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AutomaticPedestrianAlertingSound",
+    "memory_usage": 185003976,
+    "memory_share": 0.026176670145599178,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_EDR",
+    "memory_usage": 184336766,
+    "memory_share": 0.026082264952448923,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_SuggestedVIN",
+    "memory_usage": 183479965,
+    "memory_share": 0.025961034059781948,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BatteryType",
+    "memory_usage": 183038109,
+    "memory_share": 0.02589851476147317,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_NCSANote",
+    "memory_usage": 182918144,
+    "memory_share": 0.025881540616906586,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_BatteryInfo",
+    "memory_usage": 182914558,
+    "memory_share": 0.02588103322489712,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_RearCrossTrafficAlert",
+    "memory_usage": 182675731,
+    "memory_share": 0.025847241001962066,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_LowerBeamHeadlampLightSource",
+    "memory_usage": 182627510,
+    "memory_share": 0.025840418093404195,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_PossibleValues",
+    "memory_usage": 182532908,
+    "memory_share": 0.02582703262243943,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AdaptiveHeadlights",
+    "memory_usage": 182347546,
+    "memory_share": 0.025800805294592548,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_DriverAssist",
+    "memory_usage": 182347546,
+    "memory_share": 0.025800805294592548,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_OtherMotorcycleInfo",
+    "memory_usage": 182327268,
+    "memory_share": 0.025797936110217762,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_EVDriveUnit",
+    "memory_usage": 182271019,
+    "memory_share": 0.02578997730008376,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_AxleConfiguration",
+    "memory_usage": 182265085,
+    "memory_share": 0.025789137683746844,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_ChargerLevel",
+    "memory_usage": 182257632,
+    "memory_share": 0.025788083140342893,
+    "data_type": "object"
+  },
+  {
+    "column": "vf_OtherTrailerInfo",
+    "memory_usage": 182241160,
+    "memory_share": 0.025785752476321713,
+    "data_type": "object"
+  },
+  {
+    "column": "msrp",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "int64"
+  },
+  {
+    "column": "askPrice",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "int64"
+  },
+  {
+    "column": "mileage",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "int64"
+  },
+  {
+    "column": "dealerID",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "int64"
+  },
+  {
+    "column": "vf_Axles",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BasePrice",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryA",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryA_to",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryCells",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryKWh",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryKWh_to",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryModules",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryPacks",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryV",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BatteryV_to",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BedLengthIN",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_BusLength",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_CashForClunkers",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_ChargerPowerKW",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_CurbWeightLB",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_DisplacementCC",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_DisplacementCI",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_DisplacementL",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_Doors",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_EngineCycles",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_EngineCylinders",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_EngineHP",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_EngineHP_to",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_EngineKW",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_GCWR",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_GCWR_to",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_GVWR_to",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_ManufacturerId",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_ModelID",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_ModelYear",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_NCSABodyType",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_NCSAMake",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_NCSAMapExcApprovedBy",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_NCSAMapExcApprovedOn",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_NCSAMappingException",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_NCSAModel",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_OtherBusInfo",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_SAEAutomationLevel",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_SAEAutomationLevel_to",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_SeatRows",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_Seats",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_TopSpeedMPH",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_TrackWidth",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_TrailerLength",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_TransmissionSpeeds",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_WheelBaseLong",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_WheelBaseShort",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_WheelSizeFront",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_WheelSizeRear",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_Wheels",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "vf_Windows",
+    "memory_usage": 45560248,
+    "memory_share": 0.006446432176396548,
+    "data_type": "float64"
+  },
+  {
+    "column": "isNew",
+    "memory_usage": 5695143,
+    "memory_share": 0.0008058198692065847,
+    "data_type": "bool"
+  }
+]
